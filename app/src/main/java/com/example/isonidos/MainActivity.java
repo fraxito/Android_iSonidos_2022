@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         m = MediaPlayer.create(this, idSonido);
         m.start();
     }
+
     public void reproduceVideo(View vista){
         VideoView videoView = findViewById(R.id.videoView);
         int idVideo = this.getResources().getIdentifier(vista.getTag().toString(),
